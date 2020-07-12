@@ -3,7 +3,6 @@ def square_array(array)
    square_number  = number**2
    array[index] = square_number
  end
- puts "#{array}"
+ array
 end
 
-square_array([3,5,7])
